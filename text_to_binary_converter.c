@@ -6,17 +6,14 @@ void deciToBi(int decimal)
     int deci = decimal, i, k, temp[8], result = 0;
     long int pten = 10000000;
 
-    if (deci <= 255)
+    for (i = 0; i < 8; i++)
     {
-        for (i = 0; i < 8; i++)
-        {
-            temp[i] = deci % 2;
-            deci = deci / 2;
-        }
-        for (i = 7; i >= 0; i--)
-        {
-            printf("%d", temp[i]);
-        }
+        temp[i] = deci % 2;
+        deci = deci / 2;
+    }
+    for (i = 7; i >= 0; i--)
+    {            
+        printf("%d", temp[i]);
     }
 }
 
