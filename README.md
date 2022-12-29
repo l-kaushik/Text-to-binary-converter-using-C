@@ -10,7 +10,7 @@ Using this program I've try to explore, what actually the computer sees or deals
 # How this program works?
 For understanding the working mechanism of this program, you require some prerequisite: **The Basic Knowledge Of Binary Number System And C**.
 
-### Let's start from **main()**:-
+### Let's start from the main():-
 * ```C 
   void main()
   {
@@ -40,7 +40,7 @@ For understanding the working mechanism of this program, you require some prereq
 * Inside the for loop, sending each character one by one to the `deciToBi();` with argument `num`. Where num is storing the ascii of single character.
 * This is all, what the main function is doing.
 
-### Now the **deciToBi()**:-
+### Now the deciToBi():-
 
 * ```C
 
